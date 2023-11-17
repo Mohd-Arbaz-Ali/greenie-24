@@ -43,7 +43,7 @@ const AccountCreationPage = (props: Props) => {
 						height={999}
 					/>
 				</div>
-				<div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+				<div className="sm:mx-auto sm:w-full sm:max-w-sm">
 					<form
 						aria-label="Account Creation Form"
 						className="space-y-6"
@@ -137,7 +137,6 @@ const AccountCreationPage = (props: Props) => {
 					</form>
 				</div>
 			</div>
-			<div className="w-[15vw] hidden sm:block"></div>
 		</div>
 	);
 };

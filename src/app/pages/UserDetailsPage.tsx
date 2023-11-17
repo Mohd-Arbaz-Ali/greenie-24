@@ -93,10 +93,6 @@ const UserDetailsPage = (props: Props) => {
 			)}
 			<div
 				className={`w-full flex flex-col justify-center items-center gap-3`}>
-				<SearchBar
-					debouncedSearchTerm={debouncedSearchTerm}
-					setDebouncedSearchTerm={setDebouncedSearchTerm}
-				/>
 				<div className="h-[70vh] w-[85%]">
 					{!isLoadingUserData && (
 						<DataGrid
@@ -119,6 +115,10 @@ const UserDetailsPage = (props: Props) => {
 						/>
 					)}
 				</div>
+				<SearchBar
+					debouncedSearchTerm={debouncedSearchTerm}
+					setDebouncedSearchTerm={setDebouncedSearchTerm}
+				/>
 			</div>
 		</div>
 	);

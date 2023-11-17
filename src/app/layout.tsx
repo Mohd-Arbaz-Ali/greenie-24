@@ -20,7 +20,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${inter.className} flex flex-col sm:flex-row w-screen h-screen`}>
+				className={`${inter.className} flex flex-col w-screen h-screen`}>
 				<Toaster />
 				<Navbar />
 				<ReactQueryContext>
